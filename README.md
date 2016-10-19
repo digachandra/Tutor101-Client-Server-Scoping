@@ -14,11 +14,11 @@ We will use previous repositories as starter pack in this tutorial:
 
 Default interface, **if no record found**
 
-<img src=".asset/result_1.jpg" width="30%" />
+<img src=".asset/result_1.jpg" width="50%" />
 
 Filled interface & Editable textbox, **if record exists**
 
-<img src=".asset/result_2.jpg" width="30%" />
+<img src=".asset/result_2.jpg" width="50%" />
 
 #### 1. Build skeleton
 
