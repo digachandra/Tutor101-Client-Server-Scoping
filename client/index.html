@@ -11,7 +11,49 @@
 </head>
 <body>
   <!-- Content goes here - START -->
-
+  <div id="content" class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <div class="panel">
+          <div class="panel-wrapper">
+            <div class="panel-heading text-center">
+              <h3>Form</h3>
+            </div>
+            <div class="panel-body">
+              <form id="content-form">
+                <div class="form-group">
+                  <label for="txt-name">Fruit name</label>
+                  <input id="txt-name" type="text" class="form-control" autocomplete="off" placeholder="Fruit name" />
+                </div>
+                <input type="submit" class="btn btn-theme btn-block" value="Add" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-wrapper">
+            <div class="panel-body">
+              <ul id="content-list">
+                <li>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="input-group">
+                        <input type="text" class="form-control" disabled="disabled">
+                        <span class="input-group-btn">
+                          <button class="btn btn-warning" type="button">Edit</button>
+                          <button class="btn btn-danger" type="button">Delete</button>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Content goes here - END -->
   <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
