@@ -45,6 +45,17 @@ body{
   background: transparent;
   color: #FFF212;
 }
+.alert{
+  margin: 0px;
+}
+.alert.alert-theme{
+  background: #FFF;
+  border-radius: 0px;
+  color: #3E4095;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+}
 ul#content-list{
   list-style: none;
   margin: 0px;
