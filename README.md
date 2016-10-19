@@ -10,6 +10,16 @@ We will use previous repositories as starter pack in this tutorial:
 1. **Server side** : [Tutorial 101: Testing RESTful CRUD with Mocha Chai](https://github.com/digachandra/tutor101-restful-mocha-chai "Tutorial 101: Testing RESTful CRUD with Mocha Chai").
 2. **Client side** : [Tutorial 101: Basic HTML CSS with Express JS & EJS Chai](https://github.com/digachandra/tutor101-basic-html-css-express-ejs "Tutorial 101: Basic HTML CSS with Express JS & EJS"), but we will setup without express, just HTML, CSS, JS.
 
+#### Masterpiece that we will make
+
+Default interface, **if no record found**
+
+<img src=".asset/result_1.jpg" width="100%" />
+
+Filled interface & Editable textbox, **if record exists**
+
+<img src=".asset/result_2.jpg" width="100%" />
+
 #### 1. Build skeleton
 
 ```
