@@ -16,7 +16,11 @@ We will use previous repositories as starter pack in this tutorial:
 ├── client
 │   ├── asset
 │   │   ├── css
+|   |   |   └── style.css
+│   │   ├── image
+|   |   |   └── favicon.png
 │   │   └── js
+|   |       └── core.js
 |   └── index.html
 └── server
     ├── config
@@ -52,6 +56,28 @@ nodemon index.js -w
 
 #### 5. Init client side
 
+Change directory to **client**
+
 ```
 cd ../client
+```
+
+Refactoring until HTML, CSS & JS only
+
+```
+└── client
+    ├── asset
+    │   ├── css
+    |   |   └── style.css
+    │   ├── image
+    |   |   └── favicon.png
+    │   └── js
+    |       └── core.js
+    └── index.html
+```
+
+#### 6. Init index.html (client/index.html)
+
+```
+
 ```
